@@ -91,6 +91,8 @@ li{
 }
 .service-bd img{
 	margin:40px 35px;
+	width: 248px;
+	height: 130px;
 }
 .service-bd h3{
 	text-align: center;
@@ -101,6 +103,7 @@ li{
 }
 .service-bd p{
 	width: 235px;
+	height: 130px;
 	font-size: 12px;
 	color: #666666;
 	line-height: 26px;
@@ -129,3 +132,172 @@ li{
 
 
 /*service end*/
+/*case start*/
+.case{
+	width: 100%;
+	height: 480px;
+	margin: 60px auto 0;
+	background-color: #fff;
+
+}
+.case-hd{
+	width: 1030px
+	height:75px;
+	overflow: hidden;
+	
+	
+}
+.case-hd1{
+	width: 1030px;
+	height: 75px;
+	border-top: 1px solid #ccc;
+	margin: 60px auto 0;
+
+}
+.case-hd img{
+	width: 167px;
+	height: 75px;
+	margin: 0 auto;
+	display: block;
+	margin-top: -35px;
+
+
+}
+.case-bd{
+	width: 1055px;
+	margin: 0 auto;
+	height: 211px;
+	position: relative;
+
+	}
+
+.case-bd li{
+	width: 330px;
+	height: 211px;
+	float: left;
+	position: relative;
+	
+}
+.case-bd img{
+	width: 330px;
+	height: 211px;
+	
+}
+.case-bd2{
+	margin: 0 30px;
+}
+.text1{
+	height: 45px;
+	width: 326px;
+	background: rgba(0,0,0,.3);
+	position: absolute;
+	left: 2px;
+	bottom: 0;
+	line-height: 45px;
+	text-align:center;
+	color: #fff;
+	font-size: 12px;
+	margin: 0px auto;
+}
+.case-bd a{
+	width: 60px;
+	height: 60px;
+	background: rgba(0,0,0,.4);
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 60px;
+	font-size: 30px;
+	color: #fff;
+	border-radius: 50%;
+
+
+
+
+}
+.case-bd a:hover{
+	background: rgba(19,140,234,.7);
+}
+.left{
+	left: -90px;
+
+}
+.right{
+	right:-90px;
+}
+/*case end*/
+
+/*media start*/
+.media-bd{
+	width: 1055px;
+	height: 249px;
+	margin-top: 80px;
+	
+
+}
+.media-bd li{
+	width: 210px;
+	height: 83px;
+	
+	border-right: 1px dashed #ccc;
+	border-bottom:1px dashed #ccc;
+	float: left;
+	
+
+}
+ .media-bd .line-right{
+ 	border: 0;
+ 	border-bottom: 1px dashed #ccc;
+ }
+ .media-bd .line-botom{
+ 	border: 0;
+ 	border-right: 1px dashed #ccc;
+ }
+ .media-bd .line-right1{
+ 	border: 0;
+ 	
+ }
+ .media-bd img{
+ 	
+ 	margin: 30px 40px;
+ 	display: block;
+ }
+/*media end*/
+/*footer*/
+.footer{
+	height: 170px;
+	width: 100%;
+	background-color: #212425;
+	overflow: hidden;
+	margin-top: -80px;
+}
+.footer ul{
+	width: 574px;
+	height: 30px;
+	margin: 0 auto ;
+	margin-top: 40px;
+
+
+
+
+}
+.footer li{
+	float: left;
+	margin: 4px;
+}
+.footer a{
+	color: #fff;
+	font-size: 14px;
+}
+.footer a:hover{
+	text-decoration: underline;
+	
+	color: rgb(19,140,234);
+}
+.footer p{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
